@@ -15,7 +15,7 @@ body {
 	margin-top: -2px;
     margin-left: 0px;
     height:80px;
-    width: 100%;
+    min-width: 100%;
     background: black;
     position: fixed;
     z-index: 3;
@@ -59,8 +59,7 @@ nav a:hover
 
 .card-body
 {
-    position:relative;
-    width:100%;
+    min-width:100%;
     position: relative;
     z-index: 1;
     min-height: 100vh;
@@ -72,7 +71,6 @@ nav a:hover
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
-    object-fit: cover;
 
   }
   .info{
@@ -452,7 +450,7 @@ nav #icon{
     font-size: 20px;
     line-height: 80px;
     float:right;
-    margin-left: 90%;
+    margin-left: 80%;
     cursor: pointer;
     display: none;
     z-index: 3;
@@ -758,6 +756,10 @@ nav #icon{
             margin-left: 50px;
            
         }
+        .container{
+            width: 100%;
+            height: 250px;
+           }
     }
 
 
@@ -795,9 +797,10 @@ nav #icon{
 
     }
 
-    .content p{
-
-    }
+    .container{
+        width: 100%;
+        height: 250px;
+       }
 
 
     
@@ -824,14 +827,17 @@ nav #icon{
     .logo img {
         width: 25%;
     }
+    .container{
+        width: 100%;
+        height: 250px;
+       }
 }
 
 @media (max-width: 412px)
 {
 
     label.logo{
-        font-size: 52px;
-        padding-left: 0px;   
+        font-size: 52px;   
     }
 
     .logo img {
@@ -858,6 +864,11 @@ nav #icon{
       font-size: 20px;
    }
 
+   .container{
+    width: 100%;
+    height: 250px;
+   }
+
 
 }
 
@@ -874,26 +885,47 @@ nav #icon{
         margin-right: 3px;
         margin-left: 3px;
     }
+    .container{
+        width: 100%;
+        height: 250px;
+       }
 }
 
 @media (max-width: 360px)
 {
-    .planet{
-        margin-top: 110px;
-        font-size: 23px ;
-        margin-left: 130px ;
-    }
-    .content{
-        padding: 5px;
-        margin-top: 280px;
-        margin-right: 3px;
-        margin-left: 3px;
-    }
-    .content p
-    {
-        font-size: 18px;
+    label.logo{
+        font-size: 52px;   
     }
 
+    .logo img {
+        width: 25%;
+    }
+
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+    .planet
+    {
+        font-size: 25px;
+        margin-left:140px;
+    }
+    .content
+   { 
+      margin-top: 300px;
+      margin-left: 15px;
+   }
+
+   .content p{
+      font-size: 20px;
+   }
+
+   .container{
+    width: 100%;
+    height: 250px;
+   }
 
 }
 @media (max-width: 330px)
@@ -983,23 +1015,23 @@ nav #icon{
     font-family: 'Oswald', sans-serif;
   }
 
-  @media (max-width: 566px){
-
-  .foot1{
-	display:flex;
-    flex-direction: column;
-    justify-content:space-around;
-    flex-wrap: wrap;
-	margin-left: auto;
-	margin-right:auto;
-    align-items: center;
-	
-}
 .contacts
 {
     margin-top: 30px;
 }
+  
+@media (max-width: 280px)
+{
+  .contacts{
+    margin-top: 0px;
   }
+
+  .container{
+    width: 100%;
+    height: 200px;
+   }
+}
+
 
 
 
@@ -1009,7 +1041,6 @@ nav #icon{
 
 
  
-
 
 
 
