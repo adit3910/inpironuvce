@@ -1,0 +1,1023 @@
+* {
+	box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+body {
+    background-image: url("back2.jpg");
+    background-size: 30%;
+    background-repeat: repeat;
+    margin: 0;
+  }
+
+  nav{
+	margin-top: -2px;
+    margin-left: 0px;
+    height:80px;
+    width: 100%;
+    background: black;
+    position: fixed;
+    z-index: 3;
+}
+
+
+.logo img{
+    width:12%;
+    margin-left: 45px;
+    margin-top: 3px;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: -60px;
+}
+
+nav li{
+
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 30px;
+  
+}
+
+nav a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Cascadia Code', sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+.card-body
+{
+    position:relative;
+    width:100%;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+#myVideo {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: cover;
+
+  }
+  .info{
+
+    width: 400px;
+    height: 350px;
+}
+.contacts
+{
+    
+    margin-top: 100px;
+}
+
+.googlemaps
+{
+
+}
+.info img{
+    width: 80%;
+}
+
+  .planet{
+    position:absolute;
+    color:white;
+    margin-top:10%;
+    z-index:2;
+    margin-left: 150px;
+    line-height: 2px;
+    
+  }
+.planet h1{
+     font-size: 40px;
+}
+
+.planet p{
+   font-size: 30px;
+}
+
+  .planet{
+    font-family: 'Spectral SC', serif;
+  }
+
+.content
+{
+    position:absolute;
+    color:white;
+    bottom:0;
+    margin-bottom:150px;
+    margin-left:20px;
+    z-index:2;
+}
+.content h1{
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content p{
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Cascadia Code', sans-serif;
+
+}
+
+.About{
+	
+	color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+	padding-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Cascadia Code', sans-serif;
+    line-height: 2;
+    text-align: justify;
+}
+
+.About h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.events{
+	
+	color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Cascadia Code', sans-serif;
+    line-height: 2;
+    text-align: Justify;
+}
+
+.events h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.Glimpses{
+	color: white;
+	text-align: center;
+	width:80%;
+	height:460px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("UVCE_02.jpg");
+	background-size: cover;
+}
+
+.past{
+    margin-top: 50px;
+	color:white;
+	text-align: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.past h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info{
+    width: 400px;
+    height: 350px;
+}
+.contacts
+{
+    margin-top: 30px;
+}
+
+.contacts h1{
+    
+}
+
+.contacts h3
+{ 
+    font-size: 25px;  
+    font-family: 'Cascadia Code', sans-serif;
+
+}
+.contacts p{
+    margin-top: 5px;
+   font-size: 15px;
+}
+.googlemaps
+{
+}
+.info img{
+    width: 80%;
+}
+
+.container
+{
+    width: 40%;
+}
+.footer
+{
+    
+	text-align: center;
+	margin-top: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:white;
+	display:block;
+}
+
+.footer h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.foot1{
+	display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+	margin-left: auto;
+	margin-right:auto;
+    padding: 10px;
+	
+}
+
+.foot2{   
+	width:fit-content;
+	display:flex;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.icon-button {
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 3.3rem;
+	height: 3.6rem;
+	line-height: 2.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+
+.icon-button:hover span {
+	width: 4.6rem;
+	height: 4.6rem;
+	border-radius: 4.6rem;
+	margin: -2.8rem;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 2.6rem;
+	left: 0;
+	line-height: 2.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 2.6rem;
+	z-index: 10;
+}
+                            
+.social{
+    font-size: 4.5em;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.linkedin span {
+	background-color: #3B5998;
+}
+.instagram span {
+	background-color: #bc2a8d;
+}
+
+
+
+
+.icon-button .fa-facebook {
+	color: #3B5998;
+}
+
+.icon-button .fa-instagram {
+	color: #bc2a8d;
+}
+
+.icon-button .fa-linkedin {
+	color: #3B5998;
+}
+
+
+
+
+.icon-button:hover .icon-facebook,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-facebook,
+.icon-button:hover .fa-linkedin {
+	color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 3.6rem;
+    font-size: 2.8rem;
+    height: 3.6rem;
+    line-height: 2.6rem;
+    width: 3.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    margin: 0 rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+	  height: 1.6rem;
+	  line-height: 1.6rem;
+	  width: 1.6rem;
+  }
+
+
+  .pinterest {
+   display: none; 
+  }
+
+}
+
+.social li {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.buttons
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 300;
+
+}
+
+.buttons a{
+
+}
+
+.button3 {
+	color: black;
+    background: linear-gradient(to right,#e5e8eb,rgb(94, 102, 107));
+	border-radius: 10px;
+	transition: .2s ease-in-out;
+}
+
+.button3:hover {
+	border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.buttons a {
+    padding: 15px 20px;
+    font: 5px $button-font;
+    font-weight: 800 ; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+nav #icon{
+    color:white;
+    font-size: 20px;
+    line-height: 80px;
+    float:right;
+    margin-left: 90%;
+    cursor: pointer;
+    display: none;
+    z-index: 3;
+    position:absolute;
+    margin-top: 0px;
+}
+@media (max-width: 914px)
+{
+    nav #icon{
+        display: block;
+        margin-top: -70px;
+    }
+
+    nav {
+       height: 50px;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background-color: black;
+        top: 40px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav li{
+        display: block;
+        margin: 40px;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active, a:hover{
+        color:black;
+    }
+
+    nav ul.show{
+        left: 0;
+    }
+}
+
+@media (max-width: 1433px)
+{
+
+     .planet{
+        font-size: 40px ;
+        margin-left: 250px;
+        z-index:2;
+        margin-top: 10%;
+     }
+     .content{
+        position:absolute;
+        margin-top: 30%;
+        z-index:2;
+     }
+     .buttons{
+        position: absolute;
+        margin-top: 700px;
+        font-size: 15px;  
+        z-index:2;  
+        margin-left: 860px;
+    }
+
+}
+
+@media (max-width: 1227px)
+{
+
+     .planet{
+        font-size: 30px ;
+        margin-left: 250px;
+        z-index:2;
+     }
+     .content{
+        position:absolute;
+        margin-top: 380px;
+        z-index:2;
+     }
+}
+
+
+@media (max-width: 1204px)
+{
+
+    label.logo{
+        font-size: 52px;
+        padding-left: 20px;   
+    }
+
+    .logo img {
+        width: 10%;
+    }
+
+    nav ul{
+        margin-top: -50px;
+        margin-right: 28px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+    .planet
+    {
+        font-size: 35px;
+        margin-left: 200px;
+        z-index:2;
+    }
+
+    .content{
+        position: absolute;
+        margin-top: 380px;
+      
+        font-size: 62px;  
+        z-index:2;  
+    }
+    .content h1
+   { 
+       font-size: 30px;
+       
+   }
+   .content p{
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 1190px)
+{
+    .buttons{
+        position: absolute;
+        margin-top: 650px;
+        font-size: 15px;  
+        z-index:2;  
+        margin-left: 520px;
+    }
+}
+
+
+
+@media (max-width: 1087px)
+{
+    .buttons{
+        position: absolute;
+        margin-top: 650px;
+        font-size: 15px;  
+        z-index:2;  
+        margin-left: 560px;
+    }
+}
+
+
+@media (max-width: 1053px)
+{
+    .planet{
+        font-size: 30px ;
+        margin-left: 130px ;
+        z-index:2;
+    }
+
+    .content{
+        margin-top: 380px;
+        z-index:2;
+    }
+}
+
+@media (max-width: 914px)
+{
+
+    label.logo{
+        font-size: 52px;
+        padding-left: 0px;   
+    }
+
+    .logo img {
+        width: 10%;
+    }
+
+    nav{
+        height: 80px;
+    }
+
+    nav ul{
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+    nav a{
+        font-size: 17px;
+        
+    }
+    .planet{
+        margin-top: 160px;
+        font-size: 25px ;
+        margin-left: 80px ;
+        z-index:2;
+    }
+
+    .content{
+        margin-top: 380px;
+        z-index:2;
+    }
+    
+}
+
+@media (max-width: 1087px)
+{
+    .buttons{
+        position: absolute;
+        margin-top: 650px;
+        font-size: 15px;  
+        z-index:2;  
+        margin-left: 360px;
+    }
+}
+
+@media (max-width: 820px)
+{
+    .planet{
+        margin-top: 150px;
+        font-size: 25px ;
+        margin-left: 75px ;
+    }
+}
+@media (max-width: 689px)
+{
+    .buttons{
+        position: absolute;
+        margin-top: 650px;
+        font-size: 13px;  
+        z-index:2;  
+        margin-left: 300px;
+    }
+}
+
+
+@media (max-width: 769px)
+{
+
+    label.logo{
+        font-size: 52px;
+        padding-left: 0px;   
+    }
+
+    .logo img {
+        width: 15%;
+    }
+
+    nav{
+        height: 80px;
+    }
+
+    nav ul{
+        margin-right: 20px;
+        margin-top: 35px;
+    }
+    nav a{
+        font-size: 18px;
+        
+    }
+    .planet{
+        margin-top: 120px;
+        font-size: 25px ;
+        margin-left: 60px ;
+    }
+
+    .content{
+        margin-top: 380px;
+        margin-right: 5px;
+    }
+    .content p{
+        line-height:25px;
+    }
+
+    }
+    @media (max-width: 601px)
+    {
+        .buttons{
+            position: absolute;
+            margin-top: 650px;
+            font-size: 13px;  
+            z-index:2;  
+            margin-left: 200px;
+        }
+    }    
+    @media (max-width: 505px)
+    {
+        .buttons{
+            position: absolute;
+            margin-top: 650px;
+            font-size: 13px;  
+            z-index:2;  
+            margin-left: 100px;
+        }
+    }
+
+    @media (max-width: 401px)
+    {
+        .buttons{
+            position: absolute;
+            margin-top: 600px;
+            font-size: 10px;  
+            z-index:2;  
+            margin-left: 50px;
+           
+        }
+    }
+
+
+    @media (max-width: 308px)
+    {
+        .buttons{
+            position: absolute;
+            margin-top: 650px;
+            font-size: 10px;  
+            z-index:2;  
+            margin-left: 30px;
+        }
+    }
+
+@media (max-width: 500px)
+{
+
+    .logo img {
+        width: 20%;
+    }
+
+    .planet{
+        margin-top: 120px;
+        font-size: 25px ;
+        margin-left: 250px ;
+    }
+    .content{
+        margin-top: 350px;
+        margin-right: 5px;
+    }
+    .content p{
+        line-height:25px;
+    }
+    .content h1{
+
+    }
+
+    .content p{
+
+    }
+
+
+    
+}
+@media (max-width: 470px)
+{
+
+    .planet{
+        margin-top: 115px;
+        font-size: 23px ;
+        margin-left: 240px ;
+    }
+}
+@media (max-width: 430px)
+{
+    .planet{
+        margin-top: 110px;
+        font-size: 23px ;
+        margin-left: 200px ;
+    }
+    .content{
+        font-size: 10px ;
+    }
+    .logo img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 412px)
+{
+
+    label.logo{
+        font-size: 52px;
+        padding-left: 0px;   
+    }
+
+    .logo img {
+        width: 25%;
+    }
+
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+    .planet
+    {
+        font-size: 25px;
+        margin-left:140px;
+    }
+    .content
+   { 
+      margin-top: 300px;
+   }
+
+   .content p{
+      font-size: 20px;
+   }
+
+
+}
+
+@media (max-width: 398px)
+{
+    .planet{
+        margin-top: 110px;
+        font-size: 23px ;
+        margin-left: 140px ;
+    }
+
+    .content{
+        margin-top: 300px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 360px)
+{
+    .planet{
+        margin-top: 110px;
+        font-size: 23px ;
+        margin-left: 130px ;
+    }
+    .content{
+        padding: 5px;
+        margin-top: 280px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .content p
+    {
+        font-size: 18px;
+    }
+
+
+}
+@media (max-width: 330px)
+{
+    .planet{
+        margin-top: 110px;
+        font-size: 23px ;
+        margin-left: 120px ;
+    }
+    .content{
+        margin-top: 280px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .content p
+    {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 300px)
+{
+    .planet{
+        margin-top: 110px;
+        font-size: 23px ;
+        margin-left: 80px ;
+    }
+    .content{
+        margin-top: 280px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .content h1
+    {
+
+    }
+    .content p
+    {
+        font-size: 18px;
+    }
+
+
+}
+@media (max-width: 265px)
+{
+    .planet{
+        margin-top: 110px;
+        font-size: 28px ;
+        margin-left: 60px ;
+    }
+}
+
+.persons
+{
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+.persons h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.separator{
+    display:flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 2rem auto;
+  }
+  
+  .separator .line{
+    height: 3px;
+    flex: 1;
+    background-color: white;
+  }
+  
+  .separator h2{
+    padding: 0 2rem;
+  }
+  
+  .separator h2
+  {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  @media (max-width: 566px){
+
+  .foot1{
+	display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    flex-wrap: wrap;
+	margin-left: auto;
+	margin-right:auto;
+    align-items: center;
+	
+}
+.contacts
+{
+    margin-top: 30px;
+}
+  }
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
