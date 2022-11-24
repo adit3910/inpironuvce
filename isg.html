@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>breakingcad</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="test.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/24926fb548.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"><img src="skyblue.png" /></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#About1">About</a></li>
+        <li><a href="sponsor.html">Sponsors</a></li>
+        <li><a href="index.html#events1">Events</a></li>
+        <li><a href="index.html#Gallery">Gallery</a></li>
+        <li><a href="index.html#contacts1">Contacts</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="back.mp4" type="video/mp4" />
+    </video>
+
+    <div class="filler">
+      <h1>Event Name</h1>
+      <div class="cov">
+        <div class="poster">
+          <h1>Insignia</h1>
+          <!-- <img src="breaking cad.png" />-->
+
+          <p style="margin: 0">Team Size: 1</p>
+          <p style="margin: 0">Mode: offline</p>
+          <p style="margin: 0">Ticket Price: ₹50/person</p>
+          <p style="margin-top: 0">Cash Prize: Upto ₹2750</p>
+          <a href="https://in.explara.com/e/inspiron-22">
+            <button type="button" class="Register"><b>Register</b></button>
+          </a>
+        </div>
+        <div class="round">
+          <h2>Round 1:Brand me this</h2>
+          <p>
+            Participants will have to pick a chit for the logo from 3 boxes
+            labelled easy, moderate and difficult. They will have to create the
+            logo of the brand from scratch.
+          </p>
+
+          <br />
+          <p></p>
+        </div>
+
+        <div class="round">
+          <h2>Round 2: Freelance</h2>
+          <p>
+            A title and a logo must be created about the problem statement given
+            to each team qualifying to the second round. Participants have to
+            submit a perfect justification of the logo along with a
+            hyperlapse/montage of the design process.
+          </p>
+
+          <br />
+          <p></p>
+        </div>
+
+        <div class="contact">
+          <p>For more details:</p>
+          <p>Harshavardhan - +91 99021 90498</p>
+          Akshay - +91 63633 75632
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
