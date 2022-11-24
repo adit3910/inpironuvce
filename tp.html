@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>breakingcad</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="test.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/24926fb548.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"><img src="skyblue.png" /></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#About1">About</a></li>
+        <li><a href="sponsor.html">Sponsors</a></li>
+        <li><a href="index.html#events1">Events</a></li>
+        <li><a href="index.html#Gallery">Gallery</a></li>
+        <li><a href="index.html#contacts1">Contacts</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="back.mp4" type="video/mp4" />
+    </video>
+
+    <div class="filler">
+      <h1>Event Name</h1>
+      <div class="cov">
+        <div class="poster">
+          <h1>Trace space</h1>
+
+          <!-- <img src="breaking cad.png" />-->
+
+          <p style="margin: 0">Team size: 1-3</p>
+
+          <p style="margin: 0">Mode: Offline</p>
+          <p style="margin: 0">Ticket Price: ₹40/person</p>
+          <p style="margin-top: 0">Cash Prize: Upto ₹4000</p>
+          <a href="https://in.explara.com/e/inspiron-22">
+            <button type="button" class="Register"><b>Register</b></button>
+          </a>
+        </div>
+        <div class="round">
+          <h2>Round 1: SPICEy Circuits</h2>
+          <p>
+            Participants will have to troubleshoot circuits on LTspice to obtain
+            the desired output. 10 faulty circuit files along with the expected
+            waveforms will be given and each circuit will have points allotted
+            to it based on its level of difficulty. The software to be used is
+            LT spice. The expected waveforms can be obtained using transient
+            analysis, AC analysis or DC operating point. Participants will be
+            given 40 minutes to debug and obtain the desired signal and each
+            team can utilize only one computer.
+          </p>
+
+          <br />
+          <p></p>
+        </div>
+
+        <div class="round">
+          <h2>Round 2: Saucy Signals</h2>
+          <p>
+            Participants will have to produce waveforms using MATLAB. The team
+            which accumulates the number of points wins. 10 signals of varying
+            difficulty will be given and each signal will have points allotted
+            to it based on its level of difficulty. The expected signals can be
+            generated using a sum of sines and cosines. The software to be used
+            is MATLAB. The participants will be given 40 mins to generate the
+            given signals and each team can utilize only one computer.<br />
+            Bonus: Participants get to increase their points by choosing their
+            area of strength : LT Spice Or MATLAB. This should be decided prior
+            to the start of the event. A multiplier of 1.5x will be given
+          </p>
+
+          <br />
+          <p></p>
+        </div>
+
+        <div class="contact">
+          <p>For more details:</p>
+          <p>Dency- +91 91081 54200</p>
+          Neha- +91 73495 44094
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

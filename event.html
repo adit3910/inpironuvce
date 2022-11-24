@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hashitout</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="test.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/24926fb548.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"><img src="skyblue.png" /></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#About1">About</a></li>
+        <li><a href="sponsor.html">Sponsors</a></li>
+        <li><a href="index.html#events1">Events</a></li>
+        <li><a href="index.html#Gallery">Gallery</a></li>
+        <li><a href="index.html#contacts1">Contacts</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="back.mp4" type="video/mp4" />
+    </video>
+
+    <div class="filler">
+      <h1>Event Name</h1>
+      <div class="cov">
+        <div class="poster">
+          <h1>Merge It</h1>
+          <!--<img src="./pics/merge.jpeg" />-->
+          <p style="margin: 0px">Team size: 2</p>
+          <p style="margin: 0px">Ticket Price: Rs.100 (per Team)</p>
+          <p style="margin: 0px">Cash Prize: Upto 5k</p>
+          <p style="margin-top: 0px">Mode: Offline</p>
+          <a href="https://in.explara.com/e/inspiron-22">
+            <button type="button" class="Register"><b>Register</b></button>
+          </a>
+        </div>
+        <div class="round">
+          <h2>Round 1: Blind Coding</h2>
+          <p>
+            Participants are given a problem statement, where participants will
+            write the code without looking at the monitor.
+          </p>
+          <b> Time duration: 30 minutes</b>
+          <br />
+          <p></p>
+        </div>
+
+        <div class="round">
+          <h2>Round 2: Optimazation</h2>
+          <p>
+            Shortlisted teams should optimize the code written in the Round 1 by
+            eliminating errors in a short period of time.
+          </p>
+          <b> Time duration: 30 minutes</b>
+          <br />
+          <p></p>
+        </div>
+
+        <div class="round">
+          <h2>Round 3: Switch coding</h2>
+          <p>
+            A team member will be given a problem statement, he / she will code
+            for the problem for 15 mins. After 15mins, the other team member
+            will swap places and continue to code. Switching will takes place
+            after every 15mins. Code will be judged based on the number of
+            errors, quality, time taken to code and output.
+          </p>
+          <b> Time duration: 1 hour</b>
+          <br />
+          <p></p>
+        </div>
+        <div class="contact">
+          <p>For more details:</p>
+          <p>Adithya: +91 94805 50920</p>
+          Nischitha: +91 84949 58124
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

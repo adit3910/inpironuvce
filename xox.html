@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>breakingcad</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="test.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans:wght@500&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script
+      src="https://kit.fontawesome.com/24926fb548.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"><img src="skyblue.png" /></label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#About1">About</a></li>
+        <li><a href="sponsor.html">Sponsors</a></li>
+        <li><a href="index.html#events1">Events</a></li>
+        <li><a href="index.html#Gallery">Gallery</a></li>
+        <li><a href="index.html#contacts1">Contacts</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="back.mp4" type="video/mp4" />
+    </video>
+
+    <div class="filler">
+      <h1>Event Name</h1>
+      <div class="cov">
+        <div class="poster">
+          <h1>XOX</h1>
+
+          <!-- <img src="breaking cad.png" />-->
+
+          <p style="margin: 0">Team Size: 1-2</p>
+          <p style="margin: 0">Mode: Offline</p>
+          <p style="margin: 0">Ticket Price: ₹40/person</p>
+          <p style="margin-top: 0">Cash Prize: Upto ₹2750</p>
+          <a href="https://in.explara.com/e/inspiron-22">
+            <button type="button" class="Register"><b>Register</b></button>
+          </a>
+        </div>
+        <div class="round">
+          <h2>Round 1</h2>
+          <p>
+            The team gets to first test their quizzing prowess in this round
+            which will have three sections and you will fight your way to the
+            top.
+          </p>
+
+          <br />
+          <p></p>
+        </div>
+
+        <div class="round">
+          <h2>Round 2</h2>
+          <p>
+            This will be a Tic-Tac-Toe. where you’ll get an opportunity to grab
+            electronic components from which you should design the maximum
+            number of electronic circuits.
+          </p>
+
+          <br />
+          <p></p>
+        </div>
+
+        <div class="contact">
+          <p>For more details:</p>
+          <p>Vrishank - 73491 50124</p>
+          Veerabhadra - 74830 46314
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
