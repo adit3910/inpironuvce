@@ -87,7 +87,6 @@ nav a:hover {
 .planet {
   position: absolute;
   color: white;
-  margin-top: 10%;
   z-index: 2;
   margin-left: 150px;
   line-height: 2px;
@@ -113,12 +112,12 @@ nav a:hover {
   z-index: 2;
 }
 .content h1 {
-  font-size: 42px;
+  font-size: 38px;
   font-family: "Oswald", sans-serif;
 }
 
 .content p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 28px;
   font-family: "Cascadia Code", sans-serif;
 }
@@ -459,6 +458,18 @@ nav #icon {
   margin-top: 0px;
 }
 
+.heading
+{
+  position: absolute;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  line-height: 1px;
+  margin-left: 5%;
+  margin-top:7% ;
+ 
+}
+
 @media (max-width: 1205px) {
   nav #icon {
     display: block;
@@ -496,6 +507,7 @@ nav #icon {
   nav ul.show {
     left: 0;
   }
+
 }
 @media (max-width: 914px) {
   nav #icon {
@@ -537,10 +549,10 @@ nav #icon {
 
 @media (max-width: 1433px) {
   .planet {
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 250px;
     z-index: 2;
-    margin-top: 10%;
+    margin-top: 15%;
   }
   .content {
     position: absolute;
@@ -632,12 +644,16 @@ nav #icon {
     font-size: 30px;
     margin-left: 130px;
     z-index: 2;
+    margin-top: 20%;
   }
-
   .content {
     margin-top: 380px;
     z-index: 2;
   }
+  .heading{
+     margin-top: 10%;
+  }
+
 }
 
 @media (max-width: 914px) {
@@ -662,7 +678,7 @@ nav #icon {
     font-size: 17px;
   }
   .planet {
-    margin-top: 160px;
+    margin-top: 23%;
     font-size: 25px;
     margin-left: 80px;
     z-index: 2;
@@ -672,6 +688,10 @@ nav #icon {
     margin-top: 380px;
     z-index: 2;
   }
+  .heading{
+    margin-top: 10%;
+ }
+
 }
 
 @media (max-width: 1087px) {
@@ -683,14 +703,18 @@ nav #icon {
     margin-left: 360px;
   }
 }
-
 @media (max-width: 820px) {
-  .planet {
-    margin-top: 150px;
-    font-size: 25px;
-    margin-left: 75px;
+    .planet {
+      margin-top:25%;
+      font-size: 25px;
+      margin-left: 75px;
+    }
+
+    .heading{
+        margin-top: 10%;
+    }
   }
-}
+
 @media (max-width: 689px) {
   .buttons {
     position: absolute;
@@ -723,7 +747,7 @@ nav #icon {
     font-size: 18px;
   }
   .planet {
-    margin-top: 120px;
+    margin-top: 30%;
     font-size: 25px;
     margin-left: 60px;
   }
@@ -744,6 +768,16 @@ nav #icon {
     z-index: 2;
     margin-left: 200px;
   }
+  .heading{
+    margin-top: 13%;
+  }
+
+  .planet{
+    margin-top: 33%;
+    font-size: 25px;
+  }
+
+
 }
 @media (max-width: 505px) {
   .buttons {
@@ -785,7 +819,7 @@ nav #icon {
   }
 
   .planet {
-    margin-top: 120px;
+    margin-top: 37%;
     font-size: 25px;
     margin-left: 250px;
   }
@@ -806,15 +840,15 @@ nav #icon {
 }
 @media (max-width: 470px) {
   .planet {
-    margin-top: 115px;
+    margin-top: 38%;
     font-size: 23px;
     margin-left: 240px;
   }
 }
 @media (max-width: 430px) {
   .planet {
-    margin-top: 110px;
-    font-size: 23px;
+    margin-top: 40%;
+    font-size: 20px;
     margin-left: 200px;
   }
   .content {
@@ -864,8 +898,8 @@ nav #icon {
 
 @media (max-width: 398px) {
   .planet {
-    margin-top: 110px;
-    font-size: 23px;
+    margin-top:45%;
+    font-size: 18px;
     margin-left: 140px;
   }
 
@@ -878,9 +912,14 @@ nav #icon {
     width: 100%;
     height: 250px;
   }
+  .heading{
+    margin-top: 16%;
+  }
+
+
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   label.logo {
     font-size: 52px;
   }
@@ -896,22 +935,38 @@ nav #icon {
     font-size: 17px;
   }
   .planet {
-    font-size: 25px;
     margin-left: 140px;
+    margin-top: 60%;
   }
+  .planet p h1
+  {
+    font-size: 10px;
+  }
+
   .content {
-    margin-top: 300px;
+    margin-top: 340px;
     margin-left: 15px;
+
   }
 
   .content p {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .container {
     width: 100%;
     height: 250px;
   }
+  .heading h3 h4
+  {
+    font-size: 10px;
+    color:#bc2a8d;
+  }
+
+  .heading{
+    margin-top: 18%;
+  }
+
 }
 @media (max-width: 330px) {
   .planet {
@@ -1001,3 +1056,87 @@ nav #icon {
     height: 200px;
   }
 }
+
+.img1
+{
+   width:20%;
+   height: 250px;
+}
+
+.img2
+{
+   width:20%;
+   height: 250px;
+}
+
+.foot31
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.foot111{
+  width:40%;
+  align-items: center;
+}
+
+.foot11{
+  width:100%;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.f12{
+  width:50%;
+  align-items: center; 
+}
+
+.foot111 h3{
+  color: rgb(228, 145, 36);
+}
+
+.f12 h3{
+  color: rgb(228, 145, 36);
+}
+
+.foot12
+{
+  width:100%;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot12 h4{
+    color: rgb(134, 0, 134);
+}
+
+@media (max-width: 780px)
+{
+
+  .foot31{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px)
+{
+  .foot111{
+    width: 80%;
+  }
+}
+
+  
